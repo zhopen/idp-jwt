@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.19">
+<file name="C:\zhanghan\projects\developing\cmcc-cloud-management\cloud-management-api\cloud_idp\src\main\java\com\hpe\cloud\management\CloudIdpApplication.java">
+</file>
+<file name="C:\zhanghan\projects\developing\cmcc-cloud-management\cloud-management-api\cloud_idp\src\main\java\com\hpe\cloud\management\CloudIdpConfiguration.java">
+</file>
+<file name="C:\zhanghan\projects\developing\cmcc-cloud-management\cloud-management-api\cloud_idp\src\main\java\com\hpe\cloud\management\core\LoginLog.java">
+</file>
+<file name="C:\zhanghan\projects\developing\cmcc-cloud-management\cloud-management-api\cloud_idp\src\main\java\com\hpe\cloud\management\core\User.java">
+</file>
+<file name="C:\zhanghan\projects\developing\cmcc-cloud-management\cloud-management-api\cloud_idp\src\main\java\com\hpe\cloud\management\db\LoginLogDao.java">
+</file>
+<file name="C:\zhanghan\projects\developing\cmcc-cloud-management\cloud-management-api\cloud_idp\src\main\java\com\hpe\cloud\management\db\UserDao.java">
+</file>
+<file name="C:\zhanghan\projects\developing\cmcc-cloud-management\cloud-management-api\cloud_idp\src\main\java\com\hpe\cloud\management\jwt\IdpJwt.java">
+</file>
+<file name="C:\zhanghan\projects\developing\cmcc-cloud-management\cloud-management-api\cloud_idp\src\main\java\com\hpe\cloud\management\resources\IdpWebApplicationExceptionMapper.java">
+</file>
+<file name="C:\zhanghan\projects\developing\cmcc-cloud-management\cloud-management-api\cloud_idp\src\main\java\com\hpe\cloud\management\resources\LoginLogResource.java">
+</file>
+<file name="C:\zhanghan\projects\developing\cmcc-cloud-management\cloud-management-api\cloud_idp\src\main\java\com\hpe\cloud\management\resources\TokenResource.java">
+</file>
+<file name="C:\zhanghan\projects\developing\cmcc-cloud-management\cloud-management-api\cloud_idp\src\main\java\com\hpe\cloud\management\resources\UserResource.java">
+</file>
+<file name="C:\zhanghan\projects\developing\cmcc-cloud-management\cloud-management-api\cloud_idp\src\main\java\com\hpe\cloud\management\util\LogSqlFactory.java">
+</file>
+<file name="C:\zhanghan\projects\developing\cmcc-cloud-management\cloud-management-api\cloud_idp\src\main\java\com\hpe\cloud\management\vo\PageList.java">
+</file>
+<file name="C:\zhanghan\projects\developing\cmcc-cloud-management\cloud-management-api\cloud_idp\src\main\java\com\hpe\cloud\management\vo\PageParam.java">
+</file>
+<file name="C:\zhanghan\projects\developing\cmcc-cloud-management\cloud-management-api\cloud_idp\src\main\java\com\hpe\cloud\management\vo\ServerResponse.java">
+</file>
+</checkstyle>

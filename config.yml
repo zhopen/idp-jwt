@@ -1,0 +1,39 @@
+server:
+  applicationConnectors:
+    - type: http
+      port: 8067
+  requestLog:
+      appenders:
+        - type: file
+          currentLogFilename: logs/access.log
+          archivedLogFilenamePattern: logs/accedd-%d.log.xbxb
+#       - type: console
+
+
+
+logging:
+  level: INFO
+#  loggers:
+#    com.hpe.aiot: DEBUG
+  appenders:
+    - type: console
+      logFormat: "%-5p [%d{yyyy-MM-dd HH:mm:ss.SSS}] [%t] %c: %m%n%rEx"
+    - type: file
+      currentLogFilename: logs/cloud-idp.log
+      archivedLogFilenamePattern: logs/cloud-idp-%d.log.gz
+      archivedFileCount: 2
+      logFormat: "%-5p [%d{yyyy-MM-dd HH:mm:ss.SSS}] [%t] %c: %m%n%rEx"
+
+database:
+  driverClass: com.mysql.jdbc.Driver
+  user: root
+  password:
+  url: jdbc:mysql://15.146.38.169:3306/idp?characterEncoding=utf-8&useSSL=false
+  minSize: 5
+  maxSize: 10
+
+jwt:
+  expiresIn: 86400
+  refreshExpiresIn: 86400
+  hmacSecret: "abcd1234!@#$"
+

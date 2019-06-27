@@ -1,0 +1,7 @@
+com.hpe.cloud.management
+com.hpe.cloud.management.core
+com.hpe.cloud.management.db
+com.hpe.cloud.management.jwt
+com.hpe.cloud.management.resources
+com.hpe.cloud.management.util
+com.hpe.cloud.management.vo
